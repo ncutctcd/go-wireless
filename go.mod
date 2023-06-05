@@ -1,4 +1,4 @@
-module github.com/theojulienne/go-wireless
+module github.com/nuctctcd/go-wireless
 
 go 1.19
 

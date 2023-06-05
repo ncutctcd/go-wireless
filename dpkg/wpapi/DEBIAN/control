@@ -5,7 +5,7 @@ Priority: optional
 Architecture: amd64
 Maintainer: Robert Mcleod <robert@penguinpower.co.nz>
 Essential: no
-Homepage: https://github.com/theojulienne/go-wireless
+Homepage: https://github.com/nuctctcd/go-wireless
 Installed-Size: 9435
 Description: This is a description
   This is a longer description
