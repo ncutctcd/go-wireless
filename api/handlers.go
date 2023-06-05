@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nuctctcd/go-wireless"
+	"github.com/ncutctcd/go-wireless"
 )
 
 func notImplemented(c *gin.Context) {

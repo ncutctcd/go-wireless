@@ -4,7 +4,7 @@ import (
 	"flag"
 
 	"github.com/gin-gonic/gin"
-	"github.com/nuctctcd/go-wireless/api"
+	"github.com/ncutctcd/go-wireless/api"
 )
 
 func main() {

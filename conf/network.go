@@ -3,7 +3,7 @@ package conf
 import (
 	"strings"
 
-	"github.com/nuctctcd/go-wireless"
+	"github.com/ncutctcd/go-wireless"
 )
 
 // Network models a network in a WPA config file
