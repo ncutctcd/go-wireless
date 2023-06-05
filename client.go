@@ -3,6 +3,7 @@ package wireless
 import (
 	"context"
 	"errors"
+	"fmt"
 	"io"
 	"log"
 	"strconv"
@@ -177,6 +178,7 @@ func (cl *Client) Connect(net Network) (Network, error) {
 func (cl *Client) ConnectWithContext(ctx context.Context, net Network) (Network, error) {
 	net, err := cl.AddOrUpdateNetworkWithContext(ctx, net)
 	if err != nil {
+		fmt.Println(err)
 		return net, err
 	}
 
